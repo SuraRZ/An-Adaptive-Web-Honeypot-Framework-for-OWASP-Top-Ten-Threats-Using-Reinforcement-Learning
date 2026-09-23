@@ -13,7 +13,7 @@ interaction based on the attacker's observed behavior, dynamically steering
 the engagement to maximize information gathered about the attacker.
 
 **Key design elements:**
-- Reinforcement learning modeled as an MDP with 27 states across three
+- Reinforcement learning modeled as an MDP with 7 states across three
   progression stages (surface, structural, and privileged) and a terminal state
 - 10 OWASP Top Ten attack categories (A01–A10) used for request classification
 - 8 distinct deceptive actions the agent can choose between
